@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Anti_virus_Software_of_ZhiFeng_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/intellij_forms_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/jgoodies-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/intellij_forms_rt_src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/jgoodies-forms-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/jgoodies-common-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/jgoodies-forms-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/jgoodies-common-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/jgoodies-forms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Anti_virus_Software_of_ZhiFeng_jar/Anti-virus Software of ZhiFeng.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

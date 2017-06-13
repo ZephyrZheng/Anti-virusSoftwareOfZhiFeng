@@ -1,0 +1,81 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 590, 315 )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "自动升级卫士和备用木马库到最新版"
+				"opaque": false
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 100
+				"y": 60
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "不自动升级，但仍升级备用木马库"
+				"opaque": false
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 100
+				"y": 100
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"text": "玩游戏时不升级"
+				"opaque": false
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 98
+				"y": 140
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox2"
+				"text": "使用3G上网时不升级"
+				"opaque": false
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 330
+				"y": 140
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox3"
+				"text": "使用P2P/P2S技术加速升级"
+				"opaque": false
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 98
+				"y": 180
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox4"
+				"text": "使用功能时检查功能更新"
+				"opaque": false
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 330
+				"y": 180
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 590, 315 )
+		} )
+	}
+}

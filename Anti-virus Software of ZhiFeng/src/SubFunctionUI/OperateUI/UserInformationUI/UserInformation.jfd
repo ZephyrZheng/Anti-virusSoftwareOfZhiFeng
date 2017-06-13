@@ -1,0 +1,518 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 575, 720 )
+			"foreground": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "mainPanel"
+				"opaque": false
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"foreground": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"preferredSize": new java.awt.Dimension( 495, 720 )
+				"font": new java.awt.Font( "幼圆", 0, 12 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "昵称："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"horizontalAlignment": 0
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 30
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+					"nextFocusableComponent": new FormReference( "textField2" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField1KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField1FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField1FocusLost", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField1KeyTyped", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"y": 30
+					"width": 120
+					"height": 25
+					"x": 120
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "姓名："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"y": 30
+					"x": 325
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2"
+					"nextFocusableComponent": new FormReference( "radioButton1" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField2KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField2KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField2FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField2FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 30
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "性别："
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 80
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton1"
+					"text": "男"
+					"opaque": false
+					"nextFocusableComponent": new FormReference( "radioButton2" )
+					"selected": true
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "radioButton1KeyPressed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 80
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "radioButton2"
+					"text": "女"
+					"opaque": false
+					"nextFocusableComponent": new FormReference( "textField3" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "radioButton2KeyPressed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 205
+					"y": 80
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "年龄："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"horizontalAlignment": 0
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 80
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField3"
+					"nextFocusableComponent": new FormReference( "textField4" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField3KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField3KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField3FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField3FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 80
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "生日："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 130
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField4"
+					"nextFocusableComponent": new FormReference( "textField5" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField4KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField4KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField4FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField4FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 130
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "血型："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 130
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField5"
+					"nextFocusableComponent": new FormReference( "textField6" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField5KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField5KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField5FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField5FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 130
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "星座："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 180
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField6"
+					"nextFocusableComponent": new FormReference( "textField7" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField6KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField6KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField6FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField6FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 180
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "生肖："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 180
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField7"
+					"nextFocusableComponent": new FormReference( "textField8" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField7KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField7KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField7FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField7FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 180
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "职业："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 230
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField8"
+					"nextFocusableComponent": new FormReference( "textField9" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField8KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField8KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField8FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField8FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 230
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "职位："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 230
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField9"
+					"nextFocusableComponent": new FormReference( "textField10" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField9KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField9KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField9FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField9FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 230
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "学历："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 280
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField10"
+					"nextFocusableComponent": new FormReference( "textField11" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField10KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField10KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField10FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField10FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 280
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "学校："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 280
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField11"
+					"nextFocusableComponent": new FormReference( "textField12" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField11KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField11KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField11FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField11FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 280
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "电话："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 330
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField12"
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+					"nextFocusableComponent": new FormReference( "textField13" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField12KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField12KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField12FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField12FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 330
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "手机："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 325
+					"y": 330
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField13"
+					"nextFocusableComponent": new FormReference( "textField14" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField13KeyPressed", true ) )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField13KeyTyped", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusGained", "textField13FocusGained", true ) )
+					addEvent( new FormEvent( "java.awt.event.FocusListener", "focusLost", "textField13FocusLost", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 375
+					"y": 330
+					"width": 120
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label15"
+					"text": "邮箱："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 380
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField14"
+					"nextFocusableComponent": new FormReference( "textField15" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField14KeyPressed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 380
+					"width": 375
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"text": "主页："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 430
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField15"
+					"nextFocusableComponent": new FormReference( "textField16" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField15KeyPressed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 430
+					"width": 375
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label17"
+					"text": "地址："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 480
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField16"
+					"nextFocusableComponent": new FormReference( "textArea1" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textField16KeyPressed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 480
+					"width": 375
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label18"
+					"text": "爱好："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"foreground": new java.awt.Color( 102, 102, 102, 255 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 530
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+					"border": &BevelBorder0 new javax.swing.border.BevelBorder( 1, null, null, null, null )
+					"nextFocusableComponent": new FormReference( "textArea2" )
+					addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "textArea1KeyPressed", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 530
+					"width": 375
+					"height": 75
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label19"
+					"text": "简介："
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"font": new java.awt.Font( "幼圆", 0, 12 )
+					"horizontalAlignment": 0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 70
+					"y": 630
+					"width": 50
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea2"
+					"border": #BevelBorder0
+					"nextFocusableComponent": new FormReference( "textField1" )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 120
+					"y": 630
+					"width": 375
+					"height": 75
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 575
+				"x": 0
+				"height": 720
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 575, 535 )
+		} )
+	}
+}

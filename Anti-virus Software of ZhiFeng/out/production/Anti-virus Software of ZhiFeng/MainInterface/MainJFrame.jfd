@@ -1,0 +1,371 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"$locationPolicy": 1
+			"$sizePolicy": 1
+			"resizable": false
+			"minimumSize": new java.awt.Dimension( 920, 580 )
+			"undecorated": true
+			"defaultCloseOperation": 3
+			addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "thisMousePressed", true ) )
+			addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "thisMouseDragged", true ) )
+			add( new FormContainer( "javax.swing.JLayeredPane", new FormLayoutManager( class javax.swing.JLayeredPane ) ) {
+				name: "mainLayeredPane"
+				"opaque": true
+				"preferredSize": new java.awt.Dimension( 920, 580 )
+				"minimumSize": new java.awt.Dimension( 920, 580 )
+				"maximumSize": new java.awt.Dimension( 920, 580 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "bgPanel"
+					"opaque": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "bgLabel"
+						"labelFor": new FormReference( "mainLayeredPane" )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 920
+						"height": 580
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"y": 0
+					"height": 580
+					"width": 920
+					"layer": 1
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "mainPanel"
+					"opaque": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "closeMainPanelLabel"
+						"toolTipText": "关闭窗口"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "closeMainPanelLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 888
+						"y": 10
+						"width": 17
+						"height": 17
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "miniMainPanelLabel"
+						"toolTipText": "最小化窗口"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "miniMainPanelLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 859
+						"y": 10
+						"width": 17
+						"height": 17
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "setUpMainPanelLabel"
+						"toolTipText": "设置"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "setUpMainPanelLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 827
+						"y": 8
+						"width": 21
+						"height": 21
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "contactMainPanelLabel"
+						"toolTipText": "关于"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "contactMainPanelLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 800
+						"y": 10
+						"width": 17
+						"height": 17
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "updateMainPanelLabel"
+						"toolTipText": "更新"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "updateMainPanelLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 771
+						"y": 10
+						"width": 17
+						"height": 17
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "personalMainPanelLabel"
+						"toolTipText": "用户"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "personalMainPanelLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 10
+						"width": 17
+						"height": 17
+						"x": 742
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "titleMainPanelLabel"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 10
+						"x": 15
+						"height": 20
+						"width": 100
+					} )
+					add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+						name: "userSettingPopupMenu"
+						addEvent( new FormEvent( "javax.swing.event.PopupMenuListener", "popupMenuCanceled", "userSettingPopupMenuPopupMenuCanceled", true ) )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "userSettingMenuItem1"
+							"text": "用户登录"
+							"background": sfield java.awt.Color white
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userSettingMenuItem1ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "userSettingMenuItem2"
+							"text": "用户信息"
+							"background": sfield java.awt.Color white
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userSettingMenuItem2ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "userSettingMenuItem3"
+							"text": "背景图片"
+							"background": sfield java.awt.Color white
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "userSettingMenuItem3ActionPerformed", true ) )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 742
+						"y": 30
+						"width": 100
+					} )
+					add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+						name: "updateSettingPopupMenu"
+						addEvent( new FormEvent( "javax.swing.event.PopupMenuListener", "popupMenuCanceled", "updateSettingPopupMenuPopupMenuCanceled", true ) )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "updateSettingMenuItem1"
+							"text": "检查更新"
+							"background": sfield java.awt.Color white
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "updateSettingMenuItem1ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "updateSettingMenuItem2"
+							"text": "关于版本"
+							"background": sfield java.awt.Color white
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "updateSettingMenuItem2ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "updateSettingMenuItem3"
+							"text": "更新设置"
+							"background": sfield java.awt.Color white
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "updateSettingMenuItem3ActionPerformed", true ) )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 771
+						"y": 30
+						"width": 100
+					} )
+					add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+						name: "informationSettingPopupMenu"
+						"background": sfield java.awt.Color white
+						"foreground": sfield java.awt.Color white
+						addEvent( new FormEvent( "javax.swing.event.PopupMenuListener", "popupMenuCanceled", "informationSettingPopupMenuPopupMenuCanceled", true ) )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "informationSettingMenuItem1"
+							"text": "信息反馈"
+							"background": sfield java.awt.Color white
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "informationSettingMenuItem1ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "informationSettingMenuItem2"
+							"text": "关于开发者"
+							"background": sfield java.awt.Color white
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "informationSettingMenuItem2ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "informationSettingMenuItem3"
+							"text": "帮助文档"
+							"background": sfield java.awt.Color white
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "informationSettingMenuItem3ActionPerformed", true ) )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 800
+						"y": 30
+						"width": 100
+					} )
+					add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+						name: "setUpMainPanelPopupMenu"
+						"background": new java.awt.Color( 255, 255, 255, 255 )
+						"foreground": new java.awt.Color( 255, 255, 255, 255 )
+						addEvent( new FormEvent( "javax.swing.event.PopupMenuListener", "popupMenuCanceled", "setUpMainPanelPopupMenuPopupMenuCanceled", true ) )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "setUpMenuItem1"
+							"text": "基本设置"
+							"background": new java.awt.Color( 255, 255, 255, 255 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "setUpMenuItem1ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "setUpMenuItem2"
+							"text": "弹窗设置"
+							"background": new java.awt.Color( 255, 255, 255, 255 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "setUpMenuItem2ActionPerformed", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "setUpMenuItem3"
+							"text": "安全设置"
+							"background": new java.awt.Color( 255, 255, 255, 255 )
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"font": new java.awt.Font( "幼圆", 0, 12 )
+							"visible": false
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "setUpMenuItem3ActionPerformed", true ) )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 827
+						"y": 30
+						"width": 100
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "checkUpIconLabel"
+						"toolTipText": "电脑体检"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "checkUpIconLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 90
+						"y": 40
+						"width": 42
+						"height": 42
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "killingTrojansIconLabel"
+						"toolTipText": "木马查杀"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "killingTrojansIconLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 220
+						"y": 40
+						"width": 42
+						"height": 42
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "cleanUpIconLabel"
+						"toolTipText": "电脑清理"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "cleanUpIconLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 355
+						"y": 40
+						"width": 42
+						"height": 42
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "systemRepairIconLabel"
+						"toolTipText": "系统修复"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "systemRepairIconLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 490
+						"y": 40
+						"width": 42
+						"height": 42
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "accelerationIconLabel"
+						"toolTipText": "优化加速"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "accelerationIconLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 625
+						"y": 40
+						"width": 42
+						"height": 42
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "functionIconLabel"
+						"toolTipText": "功能大全"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "functionIconLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 760
+						"y": 40
+						"width": 42
+						"height": 42
+					} )
+					add( new FormContainer( "javax.swing.JLayeredPane", new FormLayoutManager( class javax.swing.JLayeredPane ) ) {
+						name: "cardLayoutLayeredPane"
+						"preferredSize": new java.awt.Dimension( 920, 465 )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+							name: "cardLayoutBgPanel"
+							"opaque": false
+							"preferredSize": new java.awt.Dimension( 920, 465 )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "cardLayoutBgLabel"
+								"preferredSize": new java.awt.Dimension( 920, 465 )
+							}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+								"x": 50
+								"width": 820
+								"height": 430
+							} )
+						}, new FormLayoutConstraints( null ) {
+							"x": 0
+							"y": 0
+							"layer": 1
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+							"autoSize": false
+						} ) {
+							name: "mainCardLayoutPanel"
+							"opaque": false
+							"preferredSize": new java.awt.Dimension( 920, 465 )
+						}, new FormLayoutConstraints( null ) {
+							"layer": 2
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 115
+						"width": 920
+						"height": 465
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"width": 920
+					"height": 580
+					"x": 0
+					"layer": 2
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"height": 580
+				"width": 920
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 920, 580 )
+		} )
+	}
+}

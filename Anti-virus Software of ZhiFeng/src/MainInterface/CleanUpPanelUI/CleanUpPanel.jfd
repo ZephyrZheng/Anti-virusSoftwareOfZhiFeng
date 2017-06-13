@@ -1,0 +1,137 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 920, 465 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "p1Label"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "p1LabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "p1LabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "p1LabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "p1LabelMouseReleased", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 150
+				"width": 230
+				"height": 85
+				"x": 90
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "p2Label"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "p2LabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "p2LabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "p2LabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "p2LabelMouseReleased", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 340
+				"y": 150
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "p3Label"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "p3LabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "p3LabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "p3LabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "p3LabelMouseReleased", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 590
+				"y": 150
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "p4Label"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "p4LabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "p4LabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "p4LabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "p4LabelMouseReleased", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 90
+				"y": 250
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "p5Label"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "p5LabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "p5LabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "p5LabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "p5LabelMouseReleased", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 340
+				"y": 250
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "p6Label"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "p6LabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "p6LabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "p6LabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "p6LabelMouseReleased", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 250
+				"x": 590
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "p1CheckBox"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 240
+				"y": 170
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "p2CheckBox"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 170
+				"x": 490
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "p3CheckBox"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 760
+				"y": 170
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "p4CheckBox"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 240
+				"y": 270
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "p5CheckBox"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 490
+				"y": 270
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "p6CheckBox"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 775
+				"y": 270
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 920, 465 )
+		} )
+	}
+}

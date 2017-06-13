@@ -1,0 +1,285 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 920, 465 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "chooseRemindLabel"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 357
+				"y": 160
+				"width": 200
+				"height": 40
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"text": "常用软件垃圾"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 115
+				"y": 240
+				"width": 110
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox2"
+				"text": "系统垃圾"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 265
+				"y": 240
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox3"
+				"text": "Cookies信息"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 415
+				"y": 240
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox4"
+				"text": "注册表"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 240
+				"x": 565
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox5"
+				"text": "痕迹信息"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"y": 240
+				"x": 715
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox6"
+				"text": "浏览器防护"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 115
+				"y": 270
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox7"
+				"text": "系统防护"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 265
+				"y": 270
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox8"
+				"text": "入口防护"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 415
+				"y": 270
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox9"
+				"text": "IE相关设置"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 565
+				"y": 270
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox10"
+				"text": "桌面设置"
+				"selected": true
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 715
+				"y": 270
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox11"
+				"text": "关联项设置"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 115
+				"y": 300
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox12"
+				"text": "常规扫描"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 265
+				"y": 300
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox13"
+				"text": "快捷方式"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 415
+				"y": 300
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox14"
+				"text": "系统设置"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 565
+				"y": 300
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox15"
+				"text": "清理插件"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 715
+				"y": 300
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox16"
+				"text": "清理软件"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 115
+				"y": 330
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox17"
+				"text": "系统关键位置"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 265
+				"y": 330
+				"width": 110
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox18"
+				"text": "安全防护"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 415
+				"y": 330
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox19"
+				"text": "高危漏洞"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 565
+				"y": 330
+				"width": 100
+				"height": 20
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox20"
+				"text": "网购防护"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"selected": true
+				"opaque": false
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 715
+				"y": 330
+				"width": 100
+				"height": 20
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 920, 465 )
+		} )
+	}
+}

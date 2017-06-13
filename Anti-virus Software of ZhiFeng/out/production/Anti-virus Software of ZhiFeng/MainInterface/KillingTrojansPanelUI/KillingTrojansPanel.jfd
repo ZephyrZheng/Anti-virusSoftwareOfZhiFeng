@@ -1,0 +1,59 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 920, 465 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "quickScanIconLabel"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "quickScanIconLabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "quickScanIconLabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "quickScanIconLabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "quickScanIconLabelMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "quickScanIconLabelMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 90
+				"y": 230
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "fullScanIconLabel"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "fullScanIconLabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "fullScanIconLabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "fullScanIconLabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "fullScanIconLabelMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "fullScanIconLabelMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 340
+				"y": 230
+				"width": 230
+				"height": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "customIconLabel"
+				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "customIconLabelMouseEntered", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "customIconLabelMouseExited", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "customIconLabelMousePressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "customIconLabelMouseReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "customIconLabelMouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 590
+				"y": 230
+				"width": 230
+				"height": 85
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 920, 465 )
+		} )
+	}
+}

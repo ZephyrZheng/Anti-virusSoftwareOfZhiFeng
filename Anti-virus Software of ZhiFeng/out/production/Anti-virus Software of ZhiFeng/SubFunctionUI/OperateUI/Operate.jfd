@@ -1,0 +1,138 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"defaultCloseOperation": 2
+			"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"undecorated": true
+			addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "thisMousePressed", true ) )
+			addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "thisMouseDragged", true ) )
+			add( new FormContainer( "javax.swing.JLayeredPane", new FormLayoutManager( class javax.swing.JLayeredPane ) ) {
+				name: "mainLayeredPane"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "bgPanel"
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"opaque": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "bgLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 590
+						"height": 375
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"y": 0
+					"layer": 1
+					"width": 590
+					"height": 375
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "borderPanel"
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"opaque": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "borderLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 590
+						"height": 375
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"layer": 2
+					"width": 590
+					"height": 375
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "mainPanel"
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"opaque": false
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "closeLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "closeLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 558
+						"y": 10
+						"width": 17
+						"height": 17
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "titleLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 10
+						"width": 100
+						"height": 20
+						"x": 15
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+						name: "cardLayoutPanel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						"opaque": false
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 590
+						"height": 315
+						"y": 30
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "scrollLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "scrollLabelMousePressed", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "scrollLabelMouseDragged", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "scrollLabelMouseEntered", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "scrollLabelMouseExited", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 60
+						"width": 10
+						"height": 60
+						"x": 560
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "scrollBorderLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 560
+						"y": 60
+						"width": 10
+						"height": 260
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "confirmLabel"
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "confirmLabelMouseClicked", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "confirmLabelMouseEntered", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "confirmLabelMouseExited", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "confirmLabelMousePressed", true ) )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseReleased", "confirmLabelMouseReleased", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 345
+						"width": 100
+						"height": 20
+						"x": 475
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"layer": 3
+					"width": 590
+					"height": 375
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"width": 590
+				"height": 375
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 590, 375 )
+		} )
+	}
+}

@@ -1,0 +1,24 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+			"opaque": false
+			"preferredSize": new java.awt.Dimension( 590, 315 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "developerInformationLabel"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 120
+				"y": 70
+				"width": 350
+				"height": 200
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 590, 315 )
+		} )
+	}
+}

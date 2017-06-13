@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: intellij_forms_rt.jar jgoodies-forms-javadoc.jar jgoodies-
+ common-javadoc.jar intellij_forms_rt_src.zip jgoodies-forms.jar jgood
+ ies-forms-sources.jar jgoodies-common-sources.jar jgoodies-common.jar
+Main-Class: MainInterface.MainJFrame
+

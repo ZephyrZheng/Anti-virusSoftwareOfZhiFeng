@@ -1,0 +1,93 @@
+JFDML JFormDesigner: "5.2.2.2.228" Java: "1.8.0_51" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"$sizePolicy": 0
+			"resizable": false
+			"minimumSize": new java.awt.Dimension( 6, 24 )
+			"undecorated": true
+			"$locationPolicy": 1
+			"defaultCloseOperation": 2
+			addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "thisMouseDragged", true ) )
+			addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "thisMousePressed", true ) )
+			add( new FormContainer( "javax.swing.JLayeredPane", new FormLayoutManager( class javax.swing.JLayeredPane ) ) {
+				name: "UndoneLayeredPane1"
+				"preferredSize": new java.awt.Dimension( 300, 200 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "UndoneBgPanel"
+					"preferredSize": new java.awt.Dimension( 300, 200 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "undoneBgLabel"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 0
+						"y": 0
+						"width": 300
+						"height": 200
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"y": 0
+					"width": 300
+					"height": 200
+					"layer": 1
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "panel1"
+					"opaque": false
+					"preferredSize": new java.awt.Dimension( 300, 200 )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "undoneCloseLabel"
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "undoneCloseLabelMouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 273
+						"y": 10
+						"width": 17
+						"height": 17
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "warningLabel"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"y": 75
+						"height": 50
+						"width": 50
+						"x": 40
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "warningTextLabel"
+						"text": "该功能还未实现！"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+						"foreground": new java.awt.Color( 102, 102, 102, 255 )
+						"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 100
+						"y": 75
+						"width": 160
+						"height": 50
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"x": 0
+					"width": 300
+					"height": 200
+					"layer": 2
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 300
+				"height": 200
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 300, 200 )
+		} )
+	}
+}
